@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AiMinds - Jordan's AI & Data Science Community</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="laser-grid" id="laser-grid"></div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="AiMinds Logo" class="logo-img">
+                    <div class="logo-text">AiMinds</div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                        <li><a href="#" class="nav-link" data-page="events">Events</a></li>
+                        <li><a href="#" class="nav-link" data-page="announcements">Announcements</a></li>
+                        <li><a href="#" class="nav-link" data-page="contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="page active">
+            <section class="welcome-section">
+                <canvas id="laser-bg"></canvas>
+                <div class="container">
+                    <div class="welcome-content">
+                        <h1>Welcome to AiMinds!</h1>
+                        <p>Be part of Jordan's first community dedicated to Artificial Intelligence and Data Science. We
+                            bring together students, professionals, and innovators to learn, collaborate, and create
+                            real impact.</p>
+                        <div class="divider"></div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfX4j_XntMqR0XeAQNzZI-CGvCuXMpV2GO2M_B_eSl45ky_lw/viewform"
+                            target="_blank" class="join-btn">Join Us</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-section">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>About Us</h2>
+                        <p>We are Jordan's first community for Artificial Intelligence (AI) and Data Science (DS)</p>
+                    </div>
+
+                    <div class="about-content">
+                        <div class="about-text">
+                            <div class="quote">
+                                "We believe in collaboration to grow stronger together, in innovation to spark new
+                                ideas, in integrity to build trust, in growth to unlock potential, and in impact to turn
+                                knowledge into meaningful change."
+                            </div>
+                            <p><strong>Vision</strong><br>
+                                To be a beacon of innovation and growth, where passionate minds unite to transform
+                                curiosity into knowledge, knowledge into action, and action into impact shaping the
+                                future of Artificial Intelligence and Data Science in Jordan and inspiring change beyond
+                                borders.</p>
+                        </div>
+                    </div>
+
+                    <div class="mission-vision">
+                        <div class="mission-card">
+                            <h3>Our Mission</h3>
+                            <p>To empower and connect students, professionals, and innovators through hands-on learning,
+                                mentorship, and collaboration. By offering workshops, hackathons, career development,
+                                and community initiatives, we aim to turn ideas into solutions and create meaningful
+                                change through the power of AI and Data Science.</p>
+                        </div>
+                        <div class="vision-card">
+                            <h3>Our Vision</h3>
+                            <p>To be a beacon of innovation and growth, where passionate minds unite to transform
+                                curiosity into knowledge, knowledge into action, and action into impact — shaping the
+                                future of Artificial Intelligence and Data Science in Jordan and inspiring change beyond
+                                borders.</p>
+                        </div>
+                    </div>
+
+                    <div class="section-title">
+                        <h2>What We Offer</h2>
+                    </div>
+
+                    <div class="offerings-container">
+                        <div class="offerings-grid">
+                            <div class="offering-card active" data-offer="workshops">
+                                <div class="offering-icon">📚</div>
+                                <h3>Workshops & Training</h3>
+                                <p>Hands-on learning experiences in AI and Data Science</p>
+                            </div>
+                            <div class="offering-card" data-offer="projects">
+                                <div class="offering-icon">🚀</div>
+                                <h3>Projects & Hackathons</h3>
+                                <p>Collaborate on innovative projects and compete in hackathons</p>
+                            </div>
+                            <div class="offering-card" data-offer="mentorship">
+                                <div class="offering-icon">🤝</div>
+                                <h3>Mentorship & Networking</h3>
+                                <p>Connect with experienced mentors and like-minded peers</p>
+                            </div>
+                            <div class="offering-card" data-offer="career">
+                                <div class="offering-icon">💼</div>
+                                <h3>Career Development</h3>
+                                <p>Get support with CV reviews, interview prep, and guidance</p>
+                            </div>
+                        </div>
+
+                        <div class="offering-details active" id="workshops-details">
+                            <h3>Workshops & Training</h3>
+                            <p>We provide hands-on learning experiences in Artificial Intelligence, Data Science, and
+                                emerging technologies. Our workshops are designed to give members not just theory, but
+                                practical skills they can immediately apply.</p>
+                            <p>Whether you're a beginner or advanced learner, these sessions help you stay ahead in the
+                                fast-changing world of AI and DS. By fostering an engaging environment, we encourage
+                                collaboration and innovation.</p>
+                        </div>
+
+                        <div class="offering-details" id="projects-details">
+                            <h3>Projects & Hackathons</h3>
+                            <p>We organize hackathons and collaborative projects where members work in teams to solve
+                                real-world problems using technology.</p>
+                            <p>These challenges encourage creativity, teamwork, and innovation while giving participants
+                                the chance to showcase their skills to peers, mentors, and potential employers.</p>
+                        </div>
+
+                        <div class="offering-details" id="mentorship-details">
+                            <h3>Mentorship & Networking</h3>
+                            <p>AiMinds connects members with experienced mentors, industry experts, and like-minded
+                                peers. Through guidance and networking opportunities, members gain valuable insights,
+                                professional support, and access to a strong community.</p>
+                            <p>Our mentorship program helps you navigate your AI journey with personalized guidance from
+                                professionals working in the field.</p>
+                        </div>
+
+                        <div class="offering-details" id="career-details">
+                            <h3>Career Development</h3>
+                            <p>We support our members on their professional journeys by offering resources such as CV
+                                reviews, interview preparation, and career guidance.</p>
+                            <p>By bridging the gap between academic learning and professional practice, AiMinds helps
+                                members take confident steps toward building successful careers in AI and Data Science.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="community" class="page">
+            <div class="container">
+                <h1>Our Community</h1>
+                <p>Join our vibrant community of AI enthusiasts, researchers, and professionals.</p>
+
+                <div class="community-grid">
+                    <div class="community-card">
+                        <div class="community-img">Discussion Forum</div>
+                        <div class="community-content">
+                            <h3>AI Discussions</h3>
+                            <p>Engage in meaningful conversations about AI trends, challenges, and breakthroughs.</p>
+                            <a href="#" class="btn">Join Discussion</a>
+                        </div>
+                    </div>
+                    <div class="community-card">
+                        <div class="community-img">Projects Hub</div>
+                        <div class="community-content">
+                            <h3>Collaborative Projects</h3>
+                            <p>Work together on innovative AI projects and share your expertise with others.</p>
+                            <a href="#" class="btn">View Projects</a>
+                        </div>
+                    </div>
+                    <div class="community-card">
+                        <div class="community-img">Mentorship</div>
+                        <div class="community-content">
+                            <h3>Mentorship Program</h3>
+                            <p>Learn from experienced AI professionals or share your knowledge as a mentor.</p>
+                            <a href="#" class="btn">Get Involved</a>
+                        </div>
+                    </div>
+                    <div class="community-card">
+                        <div class="community-img">Join Us</div>
+                        <div class="community-content">
+                            <h3>Become a Member</h3>
+                            <p>Join our community and be part of Jordan's first AI and Data Science community.</p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfX4j_XntMqR0XeAQNzZI-CGvCuXMpV2GO2M_B_eSl45ky_lw/viewform"
+                                target="_blank" class="btn">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="page">
+            <div class="container">
+                <h1>Upcoming Events</h1>
+                <p>Mark your calendar for these exciting AI events and workshops.</p>
+
+                <div class="events-list">
+                    <div class="event-item">
+                        <div class="event-date">
+                            <div class="day">15</div>
+                            <div class="month">OCT</div>
+                        </div>
+                        <div class="event-details">
+                            <h3>AI Ethics Symposium</h3>
+                            <p>Join leading experts as we discuss the ethical implications of artificial intelligence
+                                and how to build responsible AI systems.</p>
+                            <div class="event-meta">
+                                <span>📍 Virtual Event</span>
+                                <span>🕒 2:00 PM - 5:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-item">
+                        <div class="event-date">
+                            <div class="day">22</div>
+                            <div class="month">OCT</div>
+                        </div>
+                        <div class="event-details">
+                            <h3>Machine Learning Workshop</h3>
+                            <p>Hands-on workshop covering the fundamentals of machine learning with practical examples
+                                and coding exercises.</p>
+                            <div class="event-meta">
+                                <span>📍 Tech Hub, Downtown</span>
+                                <span>🕒 9:00 AM - 4:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-item">
+                        <div class="event-date">
+                            <div class="day">05</div>
+                            <div class="month">NOV</div>
+                        </div>
+                        <div class="event-details">
+                            <h3>AI Startup Pitch Competition</h3>
+                            <p>Watch innovative AI startups pitch their ideas to a panel of investors and industry
+                                experts.</p>
+                            <div class="event-meta">
+                                <span>📍 Innovation Center</span>
+                                <span>🕒 6:00 PM - 9:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="announcements" class="page">
+            <div class="container">
+                <h1>Announcements & News</h1>
+                <p>Stay informed with the latest updates from AiMinds and the AI community.</p>
+
+                <div class="announcements-list">
+                    <div class="announcement-item">
+                        <div class="announcement-date">October 5, 2023</div>
+                        <h3>New Partnership with Tech Giants</h3>
+                        <p>We're excited to announce our new partnership with leading tech companies to advance AI
+                            research and education.</p>
+                    </div>
+
+                    <div class="announcement-item">
+                        <div class="announcement-date">September 28, 2023</div>
+                        <h3>Community Challenge Winners</h3>
+                        <p>Congratulations to the winners of our latest AI challenge! Check out their innovative
+                            solutions to complex problems.</p>
+                    </div>
+
+                    <div class="announcement-item">
+                        <div class="announcement-date">September 15, 2023</div>
+                        <h3>New Learning Resources Available</h3>
+                        <p>We've added new courses and tutorials to our learning platform, covering advanced topics in
+                            neural networks and deep learning.</p>
+                    </div>
+
+                    <div class="announcement-item">
+                        <div class="announcement-date">September 3, 2023</div>
+                        <h3>Call for Speakers</h3>
+                        <p>We're looking for passionate AI experts to speak at our upcoming conference. Submit your
+                            proposal by October 15th.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="page">
+            <div class="container">
+                <h1 style="text-align: center;">Contact Us</h1>
+                <p style="text-align: center;">We'd love to hear from you. Get in touch with us using the information
+                    below.</p>
+
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3 style="text-align: center;">Follow Us</h3>
+                        <div class="social-links"
+                            style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; width: 100%; margin-bottom: 40px;">
+                            <a href="https://www.linkedin.com/company/aiminds-jo/posts/?feedView=all" target="_blank"
+                                class="btn">LinkedIn</a>
+
+                            <a href="https://www.instagram.com/aiminds.jo/" target="_blank" class="btn">Instagram</a>
+                        </div>
+
+                        <div class="contact-details"
+                            style="display: flex; justify-content: center; align-items: center; gap: 15px;">
+                            <div class="contact-icon">
+                                📍</div>
+                            <div style="text-align: left;">
+                                <h4>Address</h4>
+                                <p>Amman, Jordan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>AiMinds</h3>
+                    <p>Jordan's first community dedicated to Artificial Intelligence and Data Science.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+                        <li><a href="#" class="nav-link" data-page="community">Community</a></li>
+                        <li><a href="#" class="nav-link" data-page="events">Events</a></li>
+                        <li><a href="#" class="nav-link" data-page="announcements">Announcements</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Learning Materials</a></li>
+                        <li><a href="#">Research Papers</a></li>
+                        <li><a href="#">AI Tools</a></li>
+                        <li><a href="#">Career Opportunities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Code of Conduct</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 AiMinds Jordan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
